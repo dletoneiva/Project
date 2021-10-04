@@ -10,6 +10,21 @@ A communication matrix is built through HR research on self-declared connection 
 
 This is highly valuable to assess if the team members are aware of their roles and importances, and identify strong and weak points to act locally. It is also possible to compare different team performances regarding this subject.
 
+### Business questions to be asked:
+#### Do anyone need a HR intervention?
+For that, we build the dataset and run the functions to check how strong the connections are between people. The result for the Hive IT team is shown below.
+#### Who are the most proactively communicative people?
+By using the colored edges option, we can clearly see what are the dominant colors between nodes, and if they are of the same color, it means that the communication mainly comes from that node.
+#### Is the tem reproducing the overall company behavior?
+Plot the chart for another team and compare it.
+
+## Files in repository
+Code: connections.ipynb
+
+Inputs: conexoes_corujas.xlsx and conexoes_hive.xlsx refer to the matrix inputs from their respective teams.
+
+Outputs: PNG files with the networks. 
+
 ## Quick start
 Function using is straightforward as described in docstrings.
 
